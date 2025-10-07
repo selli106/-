@@ -1,0 +1,5 @@
+{
+  "name": "BookshELF",
+  "description": "Meet BookshELF, your personal assistant for cataloging books. Just upload photos of your bookshelf, and let our little elf powered by AI identify the titles for you.",
+  "requestFramePermissions": []
+}
