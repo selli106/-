@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/selli106/BookshELF/main/src/assets/Gemini_Generated_Image_op3vexop3vexop3v.png" alt="BookshELF Logo" width="120" />
+<img src="https://raw.githubusercontent.com/selli106/BookshELF/main/src/assets/Gemini_Generated_Image_op3vexop3vexop3v.png" alt="BookshELF Logo" width="240" />
 
 BookshELF
 Your magical bookshelf assistant. Snap a picture, and let the elf catalog your books!
