@@ -4,7 +4,6 @@ import { ResultsDisplay } from './components/ResultsDisplay';
 import { UnsureResultsDisplay } from './components/UnsureResultsDisplay';
 import { RawTextDisplay } from './components/RawTextDisplay';
 import { Spinner } from './components/Spinner';
-import { SparkleIcon } from './components/icons/SparkleIcon';
 import { ApiKeyInput } from './components/ApiKeyInput';
 import { extractBookInfoFromImages, Book, UnsureDetection } from './services/geminiService';
 import { fetchGoogleBookInfo } from './services/googleBooksService';
@@ -102,7 +101,7 @@ const App: React.FC = () => {
       <main className="container mx-auto px-4 py-8 md:py-12">
         <header className="text-center mb-10">
           <div className="flex justify-center items-center gap-4 mb-4">
-            <SparkleIcon className="w-12 h-12 text-indigo-500" />
+            <img src="https://raw.githubusercontent.com/selli106/BookshELF/main/src/assets/Gemini_Generated_Image_op3vexop3vexop3v.png" alt="BookshELF logo" className="w-12 h-12 rounded-full object-cover" />
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white tracking-tight">
               BookshELF
             </h1>
