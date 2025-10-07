@@ -31,7 +31,7 @@ Install NPM packages
 
 Run the development server
 
-Your local instance should now be accessible at http://localhost:5173.
+Your local instance should now be accessible at http://localhost:x-x-x-x.
 
 📖 How to Use
 Visit the live site for the easiest experience.
