@@ -15,68 +15,42 @@ Your magical bookshelf assistant. Snap a picture, and let the elf catalog your b
 
 </div>
 
-📸 The Magic in Action
-<div align="center">
-A live-action screenshot or GIF of BookshELF transforming a photo into a digital list would look great here!
-</div>
-
 📚 About BookshELF
 Tired of the tedious task of manually typing out your physical book collection? BookshELF is a smart, simple, and secure web application that brings the magic of AI to book cataloging.
 
 Simply upload a photo of your bookshelf, and our application—powered by Google's Gemini model—will instantly analyze the image, identify the titles and authors, and turn your dusty shelves into a clean, digital, and actionable list in seconds.
 
-✨ Core Features
-Image-to-List Conversion: Effortlessly convert photos of your bookshelf into a structured, digital list.
+Installation
+Get a Gemini API Key
 
-Gemini AI-Powered: Leverages Google's powerful Gemini API for accurate optical character recognition (OCR) and context-aware book recognition.
+Create a free API key at the Google AI Studio.
 
-Data Enrichment: Integrate with the Google Books API to fetch rich metadata like cover art, ISBNs, and store links with a single click.
+Clone the Repository
 
-Smart Review: Clearly separates confident matches from uncertain readings for quick manual review and correction.
+Navigate to the project directory
 
-Secure & Private: Your API key is stored locally in your browser and is never sent to any server other than Google's API endpoints.
+Install NPM packages
 
-Mobile-First Design: Fully responsive interface that works flawlessly on desktop and mobile devices.
+Run the development server
 
-Easy Export: Copy the extracted book list or the raw detected text to your clipboard for use elsewhere.
+Your local instance should now be accessible at http://localhost:5173.
 
-🛠️ Tech Stack
-BookshELF is built on a robust and modern stack, ensuring a fast, type-safe, and highly responsive user experience.
+📖 How to Use
+Visit the live site for the easiest experience.
 
-Technology
+Connect: Enter your Gemini API Key and click "Save".
 
-Description
+Upload: Drag/drop bookshelf images into the upload area.
 
-React
+Analyze: Click "Analyze Images". The AI processes the image and extracts text.
 
-The core JavaScript library for building the user interface.
+Refine: Review detected books. Low-confidence matches are highlighted.
 
-TypeScript
+Enrich: Click "Find on Google Books" to add cover art and links.
 
-Adds strong typing for improved code quality and maintainability.
+📄 License
+Distributed under the MIT License. See LICENSE for more information.
 
-Tailwind CSS
-
-A utility-first framework for rapid, highly responsive styling.
-
-Vite
-
-Used as the build tool for blazing-fast development and optimized production bundles.
-
-Google Gemini API
-
-The foundational AI layer for image-to-text processing.
-
-Google Books API
-
-Used for querying and enriching the book data.
-
-🚀 Getting Started
-Follow these steps to set up a local development environment.
-
-Prerequisites
-You will need a working installation of Node.js and npm or Yarn.
-
-For managing project dependencies, we strongly suggest using a modern Python dependency manager like Poetry or Pipenv to maintain a clean and reproducible environment.
-
-npm (or Yarn/pnpm)
+<div align="center">
+Made with ❤️ by selli106
+</div>
