@@ -1,73 +1,101 @@
-# React + TypeScript + Vite
+<div align="center">
+<img src="https://raw.githubusercontent.com/selli106/BookshELF/main/src/assets/Gemini_Generated_Image_op3vexop3vexop3v.png" alt="BookshELF Logo" width="120" />
+BookshELF
+Your magical bookshelf assistant. Snap a picture, and let the elf catalog your books!
+![alt text](https://img.shields.io/badge/status-active-success.svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![alt text](https://img.shields.io/badge/license-MIT-blue.svg)
 
-Currently, two official plugins are available:
+![alt text](https://img.shields.io/badge/Made%20with-React-1f425f.svg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![alt text](https://img.shields.io/badge/Made%20with-TypeScript-1f425f.svg)
+</div>
+<p align="center">
+<a href="https://selli106.github.io/BookshELF/" target="_blank" rel="noopener noreferrer">
+<img src="https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge&logo=github" alt="Live Demo" />
+</a>
+</p>
+<br />
+<div align="center">
+A live-action screenshot of BookshELF would look great here!
+</div>
+📚 About The Project
+Tired of manually typing out your book collection? BookshELF is a smart, simple web app that turns the tedious task of cataloging books into a magical experience. Just upload photos of your bookshelf, and our AI-powered elf, running on Google's Gemini model, will instantly identify the titles and authors for you.
+From a dusty shelf to a digital list in seconds!
+✨ Features
+📸 Image-to-List: Instantly convert photos of your bookshelf into a digital list.
+🧠 AI-Powered: Utilizes Google's powerful Gemini model for accurate text and book recognition.
+📚 Data Enrichment: Fetch cover art and links from the Google Books API with a single click.
+🤔 Handles Uncertainty: Separates confident results from potential misreads for easy review.
+🔒 Secure & Private: Your API key is stored securely in your browser's local storage and is never sent to any server but Google's.
+📋 Easy Export: Copy the extracted book list or all detected text to your clipboard.
+📱 Responsive Design: Works beautifully on both desktop and mobile devices.
+🛠️ Built With
+This project leverages a modern frontend stack to deliver a fast and responsive user experience.
+React - A JavaScript library for building user interfaces.
+TypeScript - For strong typing and improved developer experience.
+Vite - Next-generation frontend tooling for a blazing fast development experience.
+Tailwind CSS - A utility-first CSS framework for rapid UI development.
+Google Gemini API - The core AI for image analysis and text extraction.
+Google Books API - For enriching book data with covers and links.
+🚀 Getting Started
+To get a local copy up and running, follow these simple steps.
+Prerequisites
+You'll need Node.js and npm installed on your machine.
+npm
+code
+Sh
+npm install npm@latest -g
+Installation
+Get a Gemini API Key
+Create a free API key at Google AI Studio.
+Clone the repository
+code
+Sh
+git clone https://github.com/selli106/BookshELF.git
+Navigate to the project directory
+code
+Sh
+cd BookshELF
+Install NPM packages
+code
+Sh
+npm install
+Run the development server
+code
+Sh
+npm run dev
+Your local instance should now be running at http://localhost:5173.
+📖 Usage
+Using the live version is easy!
+Navigate to the live site.
+Enter your Gemini API Key in the input field and click "Save".
+Drag and drop your bookshelf images into the upload area, or click to browse.
+Click the "Analyze Images" button.
+Watch as the elf extracts your books! Review the results.
+Click "Find on Google Books" to enrich the list with cover art and links.
+🗺️ Roadmap
+See the open issues for a full list of proposed features (and known issues).
 
-## React Compiler
+Export list to CSV / Goodreads format.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Allow manual editing of extracted titles and authors.
 
-## Expanding the ESLint configuration
+User accounts to save and manage multiple book collections.
+🤝 Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+📄 License
+Distributed under the MIT License. See LICENSE for more information.
+<p align="center">
+Made with ❤️ by selli106
+</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+https://selli106.github.io/BookshELF/
+BookshELF Your magical bookshelf assistant. Snap a picture, and let the elf catalog your books!
+Meet BookshELF, your personal assistant for cataloging books. Just upload photos of your bookshelf, and let our little elf powered by AI identify the titles for you.",
