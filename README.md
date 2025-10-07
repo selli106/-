@@ -3,11 +3,6 @@
 
 BookshELF
 Your magical bookshelf assistant. Snap a picture, and let the elf catalog your books!
-<p>
-<img src="https://img.shields.io/badge/status-active-success.svg" alt="Project Status" />
-<img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
-<img src="https://www.google.com/search?q=https://img-shields.io/badge/Made%2520with-React%2520%257C%2520TS-1f425f.svg" alt="Built With" />
-</p>
 
 <a href="https://selli106.github.io/BookshELF/" target="_blank" rel="noopener noreferrer">
 <img src="https://www.google.com/search?q=https://img.shields.io/badge/Live%2520Demo-Launch%2520App%2520%25E2%259C%25A8-brightgreen%3Fstyle%3Dfor-the-badge%26logo%3Dgithub" alt="Live Demo" />
