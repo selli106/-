@@ -76,7 +76,7 @@ export const ImageUploader: React.FC<ImageUploaderProps> = ({ onFilesChange }) =
         onDragOver={handleDragOver}
         onDrop={handleDrop}
         onClick={handleBrowseClick}
-        className={`relative border-2 border-dashed rounded-lg p-6 text-center cursor-pointer transition-colors duration-300 ${isDragging ? 'border-indigo-500 bg-indigo-50 dark:bg-slate-700' : 'border-slate-300 dark:border-slate-600 hover:border-indigo-400'}`}
+        className={`relative border-2 border-dashed rounded-lg p-6 text-center cursor-pointer transition-colors duration-300 ${isDragging ? 'border-main-accent bg-white/95' : 'border-main-accent hover:border-main-accent'}`}
       >
         <input
           ref={fileInputRef}
@@ -86,8 +86,8 @@ export const ImageUploader: React.FC<ImageUploaderProps> = ({ onFilesChange }) =
           className="hidden"
           onChange={handleInputChange}
         />
-        <div className="flex flex-col items-center justify-center space-y-2 text-slate-500 dark:text-slate-400">
-          <UploadIcon className="w-10 h-10" />
+        <div className="flex flex-col items-center justify-center space-y-2 text-app-text">
+          <UploadIcon className="w-8 h-8" />
           <p className="font-semibold">Drag & drop your images here</p>
           <p className="text-sm">or click to browse</p>
         </div>
