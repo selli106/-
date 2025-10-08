@@ -16,7 +16,7 @@ Your magical bookshelf assistant. Snap a picture, and let the elf catalog your b
 📚 About BookshELF
 Tired of the tedious task of manually typing out your physical book collection? BookshELF is a smart, simple, and secure web application that brings the magic of AI to book cataloging.
 
-Simply upload a photo of your bookshelf, and our application—powered by Google's Gemini model—will instantly analyze the image, identify the titles and authors, and turn your dusty shelves into a clean, digital, and actionable list in seconds.
+Simply upload a photo of your bookshelf, and the BookshELF —powered by Google's Gemini model—will instantly analyze the image, identify the titles and authors, and turn your dusty shelves into a clean, digital, and actionable list in seconds.
 
 Installation
 Get a Gemini API Key
